@@ -1,0 +1,128 @@
+.head{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #f4f4f4;
+}
+
+.head_wrap{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.head_img{
+	width: 150px;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	background: url('http://ossweb-img.qq.com/images/lol/v3/logo.png') no-repeat center center;
+}
+
+.head_title{
+	position: absolute;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	height: 80px;
+	right:10px;
+}
+
+.head_title .head_title-item{
+	display: inline-block;
+	width: 100px;
+	padding:0 10px ;
+	font-size: 15px;
+	color: #000;
+}
+.head_title .head_title-item:hover{
+	color: #ff5000;
+}
+
+.head_title-bt{
+	display: inline-block;
+	width: 100px;
+	padding:0 10px ;
+	font-size: 15px;
+	color: #000;
+}
+
+.head_title .head_title-item-active{
+	color:#ff5000;
+}
+
+.head_title-tip{
+	width: 100px;
+	height: 3px;
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
+	background: #FF5000;
+	-webkit-transition: all .1s;
+	position: absolute;
+}
+
+.sc1{
+	width: 100%;
+	height: 350px;
+	opacity: 0;
+	transition:all 2s ;
+	background: url(//img.crawler.qq.com/lolwebschool/0/JAutoCMS_LOLWeb_51e979b0b70292b68dbfead8eb875d44/0) no-repeat;
+}
+
+.sc2{
+	width: 100%;
+	height: 500px;
+	transition: all 2s;
+	transform: translate(-800px,0);
+	background: url(https://ossweb-img.qq.com/upload/webplat/info/lol/20181210/305201509589446.jpg) no-repeat;
+	background-size:100% 100% ;
+}
+
+.sc3{
+	width: 100%;
+	height: 500px;
+	opacity: 0;
+	transition: all 2s;
+	background: url(https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1553421590&di=633164825e8aa823d32d597db18a3d63&src=http://07imgmini.eastday.com/mobile/20181104/20181104140152_eed530f37a8cefdec41c47e1d2d16712_1.jpeg) no-repeat center center;
+}
+
+.sc .sc1-active{
+	opacity: 1;
+}
+
+.sc .sc2-active{
+	transform: translate(0,0);
+}
+
+.sc .sc3-active{
+	opacity: 1;
+}
+
+.float_title{
+	position: fixed;
+	right: 0;
+	top: 200px;
+	background: #F4F4F4;
+}
+
+.float_title-item{
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: #000;
+}
+
+.float_title .float_title-item-active{
+	color: #FF5000;
+}
+
+.head-active{
+	position: fixed;
+	top: 0;
+	background: rgba(0,0,0, .5);
+	z-index: 200;
+}
