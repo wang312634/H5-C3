@@ -1,0 +1,27 @@
+.write_wrap{
+    width: 300px;
+    margin-top: 20px;
+}
+.write_item{
+    height: 48px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: 2px solid #787878;
+    box-shadow: 0 0 4px rgba(0 ,0,0,.2)
+}
+.write_wrap img{
+    display: block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    background-size: 100% 100%;
+    border-radius: 24px; 
+    margin-left: 5px;
+}
+
+.write_item p{
+    text-align: left;
+    line-height: 24px;
+    font-size: 15px;
+    margin-left: 10px;
+}
